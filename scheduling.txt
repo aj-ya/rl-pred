@@ -1,0 +1,3353 @@
+connecting to 1st VM
+connected to 1st VM
+connecting to 2nd VM
+connected to 2nd VM
+ceilometer-> 90
+ceilometer-> 45
+-------------------------------
+LOAD NUMEBR:  0
+ceilometer-> 32
+ceilometer-> 4
+State now: 90 45
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0467s\n    total number of events:              10000\n    total time taken by event execution: 0.0307\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.09ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0307/0.00\n\n'
+b''
+curr_data-> 32
+UnderLoad
+curr_data-> 4
+UnderLoad
+here
+next-> 32 4
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  1
+ceilometer-> 33
+ceilometer-> 34
+State now: 32 4
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 0 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 0 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 33
+UnderLoad
+curr_data-> 34
+OverLoad
+here
+here
+next-> 33 34
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  2
+ceilometer-> 15
+ceilometer-> 7
+State now: 33 34
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 1 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 1 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 15
+curr_data-> 7
+here
+here
+next-> 15 7
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  3
+ceilometer-> 64
+ceilometer-> 56
+State now: 15 7
+action: 1 action 1: 1
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0551s\n    total number of events:              10000\n    total time taken by event execution: 0.0391\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.20ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0391/0.00\n\n'
+b''
+curr_data-> 64
+OverLoad
+curr_data-> 56
+OverLoad
+here
+here
+next-> 64 56
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  4
+ceilometer-> 42
+ceilometer-> 6
+State now: 64 56
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 2 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 2 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 42
+UnderLoad
+curr_data-> 6
+OverLoad
+here
+here
+next-> 42 6
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  5
+ceilometer-> 54
+ceilometer-> 88
+State now: 42 6
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 3 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 3 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 54
+curr_data-> 88
+OverLoad
+next-> 54 88
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  6
+ceilometer-> 22
+ceilometer-> 17
+State now: 54 88
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0483s\n    total number of events:              10000\n    total time taken by event execution: 0.0336\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.54ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0336/0.00\n\n'
+b''
+curr_data-> 22
+OverLoad
+curr_data-> 17
+here
+here
+next-> 22 17
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  7
+ceilometer-> 66
+ceilometer-> 70
+State now: 22 17
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 4
+<paramiko.ChannelFile from <paramiko.Channel 4 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 4 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 66
+UnderLoad
+curr_data-> 70
+here
+next-> 66 70
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  8
+ceilometer-> 66
+ceilometer-> 55
+State now: 66 70
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 5 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 5 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 66
+UnderLoad
+curr_data-> 55
+here
+next-> 66 55
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  9
+ceilometer-> 67
+ceilometer-> 29
+State now: 66 55
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0504s\n    total number of events:              10000\n    total time taken by event execution: 0.0358\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.15ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0358/0.00\n\n'
+b''
+curr_data-> 67
+OverLoad
+curr_data-> 29
+UnderLoad
+here
+here
+next-> 67 29
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  10
+ceilometer-> 100
+ceilometer-> 93
+State now: 67 29
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0449s\n    total number of events:              10000\n    total time taken by event execution: 0.0321\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.86ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0321/0.00\n\n'
+b''
+curr_data-> 100
+curr_data-> 93
+here
+here
+next-> 100 93
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  11
+ceilometer-> 92
+ceilometer-> 75
+State now: 100 93
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 6 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 6 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 92
+UnderLoad
+curr_data-> 75
+here
+next-> 92 75
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  12
+ceilometer-> 45
+ceilometer-> 10
+State now: 92 75
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0438s\n    total number of events:              10000\n    total time taken by event execution: 0.0300\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.57ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0300/0.00\n\n'
+b''
+curr_data-> 45
+curr_data-> 10
+here
+next-> 45 10
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  13
+ceilometer-> 56
+ceilometer-> 57
+State now: 45 10
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0407s\n    total number of events:              10000\n    total time taken by event execution: 0.0292\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.17ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0292/0.00\n\n'
+b''
+curr_data-> 56
+OverLoad
+curr_data-> 57
+UnderLoad
+here
+here
+next-> 56 57
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  14
+ceilometer-> 43
+ceilometer-> 61
+State now: 56 57
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0459s\n    total number of events:              10000\n    total time taken by event execution: 0.0337\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.20ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0337/0.00\n\n'
+b''
+curr_data-> 43
+OverLoad
+curr_data-> 61
+UnderLoad
+here
+here
+next-> 43 61
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  15
+ceilometer-> 35
+ceilometer-> 14
+State now: 43 61
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 7 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 7 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 35
+curr_data-> 14
+here
+next-> 35 14
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  16
+ceilometer-> 36
+ceilometer-> 44
+State now: 35 14
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0460s\n    total number of events:              10000\n    total time taken by event execution: 0.0305\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.64ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0305/0.00\n\n'
+b''
+curr_data-> 36
+curr_data-> 44
+UnderLoad
+here
+next-> 36 44
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  17
+ceilometer-> 69
+ceilometer-> 64
+State now: 36 44
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0437s\n    total number of events:              10000\n    total time taken by event execution: 0.0285\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.73ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0285/0.00\n\n'
+b''
+curr_data-> 69
+curr_data-> 64
+UnderLoad
+here
+next-> 69 64
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  18
+ceilometer-> 24
+ceilometer-> 98
+State now: 69 64
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0414s\n    total number of events:              10000\n    total time taken by event execution: 0.0284\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.69ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0284/0.00\n\n'
+b''
+curr_data-> 24
+curr_data-> 98
+UnderLoad
+here
+next-> 24 98
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  19
+ceilometer-> 62
+ceilometer-> 27
+State now: 24 98
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 8 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 8 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 62
+UnderLoad
+curr_data-> 27
+OverLoad
+here
+here
+next-> 62 27
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  20
+ceilometer-> 88
+ceilometer-> 80
+State now: 62 27
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 4
+<paramiko.ChannelFile from <paramiko.Channel 9 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 9 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 88
+curr_data-> 80
+OverLoad
+here
+next-> 88 80
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  21
+ceilometer-> 70
+ceilometer-> 10
+State now: 88 80
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 10 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 10 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 70
+UnderLoad
+curr_data-> 10
+OverLoad
+here
+here
+next-> 70 10
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  22
+ceilometer-> 35
+ceilometer-> 16
+State now: 70 10
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0501s\n    total number of events:              10000\n    total time taken by event execution: 0.0316\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.07ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0316/0.00\n\n'
+b''
+curr_data-> 35
+OverLoad
+curr_data-> 16
+here
+here
+next-> 35 16
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  23
+ceilometer-> 59
+ceilometer-> 77
+State now: 35 16
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0444s\n    total number of events:              10000\n    total time taken by event execution: 0.0286\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.85ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0286/0.00\n\n'
+b''
+curr_data-> 59
+OverLoad
+curr_data-> 77
+here
+next-> 59 77
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  24
+ceilometer-> 16
+ceilometer-> 22
+State now: 59 77
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 11 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 11 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 16
+OverLoad
+curr_data-> 22
+OverLoad
+here
+here
+next-> 16 22
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  25
+ceilometer-> 60
+ceilometer-> 96
+State now: 16 22
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 6
+<paramiko.ChannelFile from <paramiko.Channel 12 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 12 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 60
+curr_data-> 96
+here
+next-> 60 96
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  26
+ceilometer-> 49
+ceilometer-> 0
+State now: 60 96
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 13 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 13 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 49
+curr_data-> 0
+here
+next-> 49 0
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  27
+ceilometer-> 79
+ceilometer-> 29
+State now: 49 0
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0463s\n    total number of events:              10000\n    total time taken by event execution: 0.0312\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.37ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0312/0.00\n\n'
+b''
+curr_data-> 79
+UnderLoad
+curr_data-> 29
+UnderLoad
+here
+here
+next-> 79 29
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  28
+ceilometer-> 11
+ceilometer-> 37
+State now: 79 29
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0464s\n    total number of events:              10000\n    total time taken by event execution: 0.0321\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.76ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0321/0.00\n\n'
+b''
+curr_data-> 11
+UnderLoad
+curr_data-> 37
+UnderLoad
+here
+next-> 11 37
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  29
+ceilometer-> 32
+ceilometer-> 57
+State now: 11 37
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 14 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 14 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 32
+UnderLoad
+curr_data-> 57
+OverLoad
+here
+here
+next-> 32 57
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  30
+ceilometer-> 94
+ceilometer-> 99
+State now: 32 57
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 15 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 15 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 94
+UnderLoad
+curr_data-> 99
+OverLoad
+here
+next-> 94 99
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  31
+ceilometer-> 68
+ceilometer-> 57
+State now: 94 99
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0503s\n    total number of events:              10000\n    total time taken by event execution: 0.0320\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.60ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0320/0.00\n\n'
+b''
+curr_data-> 68
+OverLoad
+curr_data-> 57
+here
+next-> 68 57
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  32
+ceilometer-> 21
+ceilometer-> 91
+State now: 68 57
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 6
+<paramiko.ChannelFile from <paramiko.Channel 16 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 16 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 21
+curr_data-> 91
+OverLoad
+next-> 21 91
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  33
+ceilometer-> 31
+ceilometer-> 9
+State now: 21 91
+action: 2 action 1: 2
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 17 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 17 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 31
+UnderLoad
+curr_data-> 9
+UnderLoad
+here
+next-> 31 9
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  34
+ceilometer-> 100
+ceilometer-> 50
+State now: 31 9
+action: 1 action 1: 1
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0446s\n    total number of events:              10000\n    total time taken by event execution: 0.0285\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.76ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0285/0.00\n\n'
+b''
+curr_data-> 100
+OverLoad
+curr_data-> 50
+OverLoad
+here
+next-> 100 50
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  35
+ceilometer-> 38
+ceilometer-> 49
+State now: 100 50
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0418s\n    total number of events:              10000\n    total time taken by event execution: 0.0286\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.46ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0286/0.00\n\n'
+b''
+curr_data-> 38
+curr_data-> 49
+next-> 38 49
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  36
+ceilometer-> 86
+ceilometer-> 17
+State now: 38 49
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 18 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 18 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 86
+OverLoad
+curr_data-> 17
+OverLoad
+here
+next-> 86 17
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  37
+ceilometer-> 30
+ceilometer-> 85
+State now: 86 17
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 6
+<paramiko.ChannelFile from <paramiko.Channel 19 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 19 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 30
+curr_data-> 85
+OverLoad
+next-> 30 85
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  38
+ceilometer-> 7
+ceilometer-> 74
+State now: 30 85
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 20 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 20 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 7
+OverLoad
+curr_data-> 74
+OverLoad
+here
+here
+next-> 7 74
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  39
+ceilometer-> 86
+ceilometer-> 76
+State now: 7 74
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 4
+<paramiko.ChannelFile from <paramiko.Channel 21 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 21 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 86
+UnderLoad
+curr_data-> 76
+here
+next-> 86 76
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  40
+ceilometer-> 66
+ceilometer-> 24
+State now: 86 76
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0510s\n    total number of events:              10000\n    total time taken by event execution: 0.0378\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  4.90ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0378/0.00\n\n'
+b''
+curr_data-> 66
+UnderLoad
+curr_data-> 24
+UnderLoad
+here
+here
+next-> 66 24
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  41
+ceilometer-> 70
+ceilometer-> 9
+State now: 66 24
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 22 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 22 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 70
+curr_data-> 9
+OverLoad
+here
+next-> 70 9
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  42
+ceilometer-> 64
+ceilometer-> 30
+State now: 70 9
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0479s\n    total number of events:              10000\n    total time taken by event execution: 0.0314\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.66ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0314/0.00\n\n'
+b''
+curr_data-> 64
+OverLoad
+curr_data-> 30
+UnderLoad
+here
+here
+next-> 64 30
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  43
+ceilometer-> 16
+ceilometer-> 19
+State now: 64 30
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0417s\n    total number of events:              10000\n    total time taken by event execution: 0.0291\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.81ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0291/0.00\n\n'
+b''
+curr_data-> 16
+UnderLoad
+curr_data-> 19
+UnderLoad
+next-> 16 19
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  44
+ceilometer-> 53
+ceilometer-> 2
+State now: 16 19
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 6
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 6\n\n\nTest execution summary:\n    total time:                          0.0423s\n    total number of events:              10000\n    total time taken by event execution: 0.0280\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.32ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0280/0.00\n\n'
+b''
+curr_data-> 53
+OverLoad
+curr_data-> 2
+UnderLoad
+here
+next-> 53 2
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  45
+ceilometer-> 74
+ceilometer-> 38
+State now: 53 2
+action: 1 action 1: 1
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0449s\n    total number of events:              10000\n    total time taken by event execution: 0.0327\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.58ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0327/0.00\n\n'
+b''
+curr_data-> 74
+OverLoad
+curr_data-> 38
+OverLoad
+here
+here
+next-> 74 38
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  46
+ceilometer-> 71
+ceilometer-> 9
+State now: 74 38
+action: 1 action 1: 1
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0439s\n    total number of events:              10000\n    total time taken by event execution: 0.0288\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.94ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0288/0.00\n\n'
+b''
+curr_data-> 71
+OverLoad
+curr_data-> 9
+OverLoad
+here
+here
+next-> 71 9
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  47
+ceilometer-> 98
+ceilometer-> 67
+State now: 71 9
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0423s\n    total number of events:              10000\n    total time taken by event execution: 0.0283\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.80ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0283/0.00\n\n'
+b''
+curr_data-> 98
+OverLoad
+curr_data-> 67
+next-> 98 67
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  48
+ceilometer-> 46
+ceilometer-> 41
+State now: 98 67
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 23 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 23 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 46
+UnderLoad
+curr_data-> 41
+OverLoad
+here
+here
+next-> 46 41
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  49
+ceilometer-> 63
+ceilometer-> 97
+State now: 46 41
+action: 1 action 1: 1
+To IP-> 192.168.31.65
+Number of threads-> 6
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 6\n\n\nTest execution summary:\n    total time:                          0.0463s\n    total number of events:              10000\n    total time taken by event execution: 0.0296\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.75ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0296/0.00\n\n'
+b''
+curr_data-> 63
+OverLoad
+curr_data-> 97
+OverLoad
+here
+next-> 63 97
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  50
+ceilometer-> 67
+ceilometer-> 36
+State now: 63 97
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 24 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 24 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 67
+UnderLoad
+curr_data-> 36
+OverLoad
+here
+here
+next-> 67 36
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  51
+ceilometer-> 34
+ceilometer-> 98
+State now: 67 36
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0488s\n    total number of events:              10000\n    total time taken by event execution: 0.0342\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.52ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0342/0.00\n\n'
+b''
+curr_data-> 34
+OverLoad
+curr_data-> 98
+UnderLoad
+here
+here
+next-> 34 98
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  52
+ceilometer-> 27
+ceilometer-> 20
+State now: 34 98
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0432s\n    total number of events:              10000\n    total time taken by event execution: 0.0281\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.93ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0281/0.00\n\n'
+b''
+curr_data-> 27
+OverLoad
+curr_data-> 20
+here
+next-> 27 20
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  53
+ceilometer-> 71
+ceilometer-> 64
+State now: 27 20
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0477s\n    total number of events:              10000\n    total time taken by event execution: 0.0318\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.25ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0318/0.00\n\n'
+b''
+curr_data-> 71
+OverLoad
+curr_data-> 64
+here
+next-> 71 64
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  54
+ceilometer-> 14
+ceilometer-> 34
+State now: 71 64
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0548s\n    total number of events:              10000\n    total time taken by event execution: 0.0394\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.16ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0394/0.00\n\n'
+b''
+curr_data-> 14
+UnderLoad
+curr_data-> 34
+UnderLoad
+here
+next-> 14 34
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  55
+ceilometer-> 6
+ceilometer-> 74
+State now: 14 34
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 25 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 25 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 6
+curr_data-> 74
+OverLoad
+here
+here
+next-> 6 74
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  56
+ceilometer-> 68
+ceilometer-> 34
+State now: 6 74
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 26 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 26 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 68
+OverLoad
+curr_data-> 34
+OverLoad
+here
+here
+next-> 68 34
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  57
+ceilometer-> 31
+ceilometer-> 33
+State now: 68 34
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 27 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 27 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 31
+UnderLoad
+curr_data-> 33
+OverLoad
+here
+here
+next-> 31 33
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  58
+ceilometer-> 60
+ceilometer-> 79
+State now: 31 33
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 28 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 28 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 60
+curr_data-> 79
+next-> 60 79
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  59
+ceilometer-> 65
+ceilometer-> 83
+State now: 60 79
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 29 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 29 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 65
+curr_data-> 83
+OverLoad
+next-> 65 83
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  60
+ceilometer-> 35
+ceilometer-> 79
+State now: 65 83
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 30 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 30 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 35
+UnderLoad
+curr_data-> 79
+here
+next-> 35 79
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  61
+ceilometer-> 3
+ceilometer-> 32
+State now: 35 79
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 31 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 31 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 3
+UnderLoad
+curr_data-> 32
+OverLoad
+here
+next-> 3 32
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  62
+ceilometer-> 5
+ceilometer-> 20
+State now: 3 32
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 32 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 32 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 5
+UnderLoad
+curr_data-> 20
+OverLoad
+here
+next-> 5 20
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  63
+ceilometer-> 33
+ceilometer-> 21
+State now: 5 20
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0445s\n    total number of events:              10000\n    total time taken by event execution: 0.0295\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.59ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0295/0.00\n\n'
+b''
+curr_data-> 33
+OverLoad
+curr_data-> 21
+here
+next-> 33 21
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  64
+ceilometer-> 86
+ceilometer-> 39
+State now: 33 21
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0416s\n    total number of events:              10000\n    total time taken by event execution: 0.0280\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.78ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0280/0.00\n\n'
+b''
+curr_data-> 86
+curr_data-> 39
+UnderLoad
+here
+here
+next-> 86 39
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  65
+ceilometer-> 67
+ceilometer-> 37
+State now: 86 39
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0479s\n    total number of events:              10000\n    total time taken by event execution: 0.0310\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.95ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0310/0.00\n\n'
+b''
+curr_data-> 67
+OverLoad
+curr_data-> 37
+here
+next-> 67 37
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  66
+ceilometer-> 76
+ceilometer-> 72
+State now: 67 37
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0458s\n    total number of events:              10000\n    total time taken by event execution: 0.0304\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.30ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0304/0.00\n\n'
+b''
+curr_data-> 76
+curr_data-> 72
+next-> 76 72
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  67
+ceilometer-> 80
+ceilometer-> 10
+State now: 76 72
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 33 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 33 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 80
+UnderLoad
+curr_data-> 10
+here
+here
+next-> 80 10
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  68
+ceilometer-> 4
+ceilometer-> 49
+State now: 80 10
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0549s\n    total number of events:              10000\n    total time taken by event execution: 0.0354\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.08ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0354/0.00\n\n'
+b''
+curr_data-> 4
+OverLoad
+curr_data-> 49
+UnderLoad
+here
+here
+next-> 4 49
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  69
+ceilometer-> 86
+ceilometer-> 57
+State now: 4 49
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 34 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 34 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 86
+UnderLoad
+curr_data-> 57
+here
+next-> 86 57
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  70
+ceilometer-> 90
+ceilometer-> 38
+State now: 86 57
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0454s\n    total number of events:              10000\n    total time taken by event execution: 0.0308\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.37ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0308/0.00\n\n'
+b''
+curr_data-> 90
+OverLoad
+curr_data-> 38
+next-> 90 38
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  71
+ceilometer-> 100
+ceilometer-> 73
+State now: 90 38
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0398s\n    total number of events:              10000\n    total time taken by event execution: 0.0274\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.71ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0274/0.00\n\n'
+b''
+curr_data-> 100
+curr_data-> 73
+here
+next-> 100 73
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  72
+ceilometer-> 92
+ceilometer-> 87
+State now: 100 73
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 35 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 35 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 92
+UnderLoad
+curr_data-> 87
+here
+here
+next-> 92 87
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  73
+ceilometer-> 18
+ceilometer-> 87
+State now: 92 87
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0427s\n    total number of events:              10000\n    total time taken by event execution: 0.0284\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.14ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0284/0.00\n\n'
+b''
+curr_data-> 18
+curr_data-> 87
+here
+here
+next-> 18 87
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  74
+ceilometer-> 70
+ceilometer-> 11
+State now: 18 87
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 6
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 6\n\n\nTest execution summary:\n    total time:                          0.0447s\n    total number of events:              10000\n    total time taken by event execution: 0.0294\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.46ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0294/0.00\n\n'
+b''
+curr_data-> 70
+OverLoad
+curr_data-> 11
+here
+here
+next-> 70 11
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  75
+ceilometer-> 83
+ceilometer-> 38
+State now: 70 11
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0427s\n    total number of events:              10000\n    total time taken by event execution: 0.0282\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.30ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0282/0.00\n\n'
+b''
+curr_data-> 83
+curr_data-> 38
+here
+next-> 83 38
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  76
+ceilometer-> 17
+ceilometer-> 15
+State now: 83 38
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0441s\n    total number of events:              10000\n    total time taken by event execution: 0.0307\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.26ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0307/0.00\n\n'
+b''
+curr_data-> 17
+curr_data-> 15
+here
+here
+next-> 17 15
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  77
+ceilometer-> 86
+ceilometer-> 43
+State now: 17 15
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0502s\n    total number of events:              10000\n    total time taken by event execution: 0.0341\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  4.52ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0341/0.00\n\n'
+b''
+curr_data-> 86
+curr_data-> 43
+here
+next-> 86 43
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  78
+ceilometer-> 51
+ceilometer-> 32
+State now: 86 43
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0496s\n    total number of events:              10000\n    total time taken by event execution: 0.0314\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.99ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0314/0.00\n\n'
+b''
+curr_data-> 51
+OverLoad
+curr_data-> 32
+here
+next-> 51 32
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  79
+ceilometer-> 53
+ceilometer-> 48
+State now: 51 32
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0443s\n    total number of events:              10000\n    total time taken by event execution: 0.0309\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.63ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0309/0.00\n\n'
+b''
+curr_data-> 53
+OverLoad
+curr_data-> 48
+here
+next-> 53 48
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  80
+ceilometer-> 42
+ceilometer-> 100
+State now: 53 48
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0414s\n    total number of events:              10000\n    total time taken by event execution: 0.0269\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.08ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0269/0.00\n\n'
+b''
+curr_data-> 42
+OverLoad
+curr_data-> 100
+here
+here
+next-> 42 100
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  81
+ceilometer-> 39
+ceilometer-> 92
+State now: 42 100
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0463s\n    total number of events:              10000\n    total time taken by event execution: 0.0298\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.51ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0298/0.00\n\n'
+b''
+curr_data-> 39
+OverLoad
+curr_data-> 92
+here
+here
+next-> 39 92
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  82
+ceilometer-> 35
+ceilometer-> 57
+State now: 39 92
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0440s\n    total number of events:              10000\n    total time taken by event execution: 0.0307\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.73ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0307/0.00\n\n'
+b''
+curr_data-> 35
+OverLoad
+curr_data-> 57
+here
+next-> 35 57
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  83
+ceilometer-> 12
+ceilometer-> 45
+State now: 35 57
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0705s\n    total number of events:              10000\n    total time taken by event execution: 0.0555\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.01ms\n         max:                                  8.65ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0555/0.00\n\n'
+b''
+curr_data-> 12
+OverLoad
+curr_data-> 45
+here
+next-> 12 45
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  84
+ceilometer-> 82
+ceilometer-> 8
+State now: 12 45
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 36 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 36 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 82
+UnderLoad
+curr_data-> 8
+here
+here
+next-> 82 8
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  85
+ceilometer-> 2
+ceilometer-> 20
+State now: 82 8
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 6
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 6\n\n\nTest execution summary:\n    total time:                          0.0442s\n    total number of events:              10000\n    total time taken by event execution: 0.0282\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.02ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0282/0.00\n\n'
+b''
+curr_data-> 2
+curr_data-> 20
+here
+next-> 2 20
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  86
+ceilometer-> 11
+ceilometer-> 98
+State now: 2 20
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0411s\n    total number of events:              10000\n    total time taken by event execution: 0.0284\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.80ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0284/0.00\n\n'
+b''
+curr_data-> 11
+OverLoad
+curr_data-> 98
+here
+here
+next-> 11 98
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  87
+ceilometer-> 95
+ceilometer-> 97
+State now: 11 98
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0449s\n    total number of events:              10000\n    total time taken by event execution: 0.0308\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.67ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0308/0.00\n\n'
+b''
+curr_data-> 95
+OverLoad
+curr_data-> 97
+here
+next-> 95 97
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  88
+ceilometer-> 54
+ceilometer-> 5
+State now: 95 97
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 37 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 37 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 54
+curr_data-> 5
+here
+next-> 54 5
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  89
+ceilometer-> 71
+ceilometer-> 39
+State now: 54 5
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0451s\n    total number of events:              10000\n    total time taken by event execution: 0.0308\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.71ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0308/0.00\n\n'
+b''
+curr_data-> 71
+curr_data-> 39
+next-> 71 39
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  90
+ceilometer-> 45
+ceilometer-> 38
+State now: 71 39
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0444s\n    total number of events:              10000\n    total time taken by event execution: 0.0282\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.10ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0282/0.00\n\n'
+b''
+curr_data-> 45
+OverLoad
+curr_data-> 38
+here
+next-> 45 38
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  91
+ceilometer-> 9
+ceilometer-> 99
+State now: 45 38
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 6
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 6\n\n\nTest execution summary:\n    total time:                          0.0491s\n    total number of events:              10000\n    total time taken by event execution: 0.0314\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.62ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0314/0.00\n\n'
+b''
+curr_data-> 9
+OverLoad
+curr_data-> 99
+here
+here
+next-> 9 99
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  92
+ceilometer-> 22
+ceilometer-> 86
+State now: 9 99
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0422s\n    total number of events:              10000\n    total time taken by event execution: 0.0284\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.25ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0284/0.00\n\n'
+b''
+curr_data-> 22
+OverLoad
+curr_data-> 86
+here
+here
+next-> 22 86
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  93
+ceilometer-> 98
+ceilometer-> 34
+State now: 22 86
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 38 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 38 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 98
+curr_data-> 34
+here
+next-> 98 34
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  94
+ceilometer-> 81
+ceilometer-> 5
+State now: 98 34
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0442s\n    total number of events:              10000\n    total time taken by event execution: 0.0301\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.23ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0301/0.00\n\n'
+b''
+curr_data-> 81
+curr_data-> 5
+here
+here
+next-> 81 5
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  95
+ceilometer-> 39
+ceilometer-> 70
+State now: 81 5
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0446s\n    total number of events:              10000\n    total time taken by event execution: 0.0302\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.95ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0302/0.00\n\n'
+b''
+curr_data-> 39
+curr_data-> 70
+next-> 39 70
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  96
+ceilometer-> 69
+ceilometer-> 47
+State now: 39 70
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0400s\n    total number of events:              10000\n    total time taken by event execution: 0.0259\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.81ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0259/0.00\n\n'
+b''
+curr_data-> 69
+OverLoad
+curr_data-> 47
+here
+next-> 69 47
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  97
+ceilometer-> 78
+ceilometer-> 64
+State now: 69 47
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0462s\n    total number of events:              10000\n    total time taken by event execution: 0.0303\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.87ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0303/0.00\n\n'
+b''
+curr_data-> 78
+curr_data-> 64
+next-> 78 64
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  98
+ceilometer-> 81
+ceilometer-> 37
+State now: 78 64
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0452s\n    total number of events:              10000\n    total time taken by event execution: 0.0309\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.89ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0309/0.00\n\n'
+b''
+curr_data-> 81
+curr_data-> 37
+here
+next-> 81 37
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  99
+ceilometer-> 30
+ceilometer-> 15
+State now: 81 37
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 39 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 39 (open) window=2097152 -> <paramiko.Transport at 0x7c7f3220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 30
+UnderLoad
+curr_data-> 15
+here
+here
+next-> 30 15
+-------------------------------
+--------------------------------
+Done with accuracy 0.76
+--------------------------------
+Total execution time = 0:00:36.329459
+connecting to 1st VM
+connected to 1st VM
+connecting to 2nd VM
+connected to 2nd VM
+ceilometer-> 49
+ceilometer-> 98
+-------------------------------
+LOAD NUMEBR:  0
+ceilometer-> 85
+ceilometer-> 86
+State now: 49 98
+action: 2 action 1: 2
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 0 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 0 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 85
+UnderLoad
+curr_data-> 86
+UnderLoad
+here
+here
+next-> 85 86
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  1
+ceilometer-> 26
+ceilometer-> 21
+State now: 85 86
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0488s\n    total number of events:              10000\n    total time taken by event execution: 0.0312\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.23ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0312/0.00\n\n'
+b''
+curr_data-> 26
+OverLoad
+curr_data-> 21
+here
+next-> 26 21
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  2
+ceilometer-> 4
+ceilometer-> 47
+State now: 26 21
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0449s\n    total number of events:              10000\n    total time taken by event execution: 0.0284\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.58ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0284/0.00\n\n'
+b''
+curr_data-> 4
+OverLoad
+curr_data-> 47
+UnderLoad
+here
+here
+next-> 4 47
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  3
+ceilometer-> 1
+ceilometer-> 55
+State now: 4 47
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0494s\n    total number of events:              10000\n    total time taken by event execution: 0.0334\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.46ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0334/0.00\n\n'
+b''
+curr_data-> 1
+OverLoad
+curr_data-> 55
+UnderLoad
+here
+here
+next-> 1 55
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  4
+ceilometer-> 26
+ceilometer-> 83
+State now: 1 55
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0440s\n    total number of events:              10000\n    total time taken by event execution: 0.0286\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.80ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0286/0.00\n\n'
+b''
+curr_data-> 26
+OverLoad
+curr_data-> 83
+here
+here
+next-> 26 83
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  5
+ceilometer-> 45
+ceilometer-> 91
+State now: 26 83
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0491s\n    total number of events:              10000\n    total time taken by event execution: 0.0330\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.84ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0330/0.00\n\n'
+b''
+curr_data-> 45
+OverLoad
+curr_data-> 91
+here
+here
+next-> 45 91
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  6
+ceilometer-> 1
+ceilometer-> 22
+State now: 45 91
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0447s\n    total number of events:              10000\n    total time taken by event execution: 0.0307\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.38ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0307/0.00\n\n'
+b''
+curr_data-> 1
+OverLoad
+curr_data-> 22
+here
+next-> 1 22
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  7
+ceilometer-> 82
+ceilometer-> 49
+State now: 1 22
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 8
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 8\n\n\nTest execution summary:\n    total time:                          0.0488s\n    total number of events:              10000\n    total time taken by event execution: 0.0315\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.36ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0315/0.00\n\n'
+b''
+curr_data-> 82
+OverLoad
+curr_data-> 49
+next-> 82 49
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  8
+ceilometer-> 95
+ceilometer-> 70
+State now: 82 49
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 1 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 1 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 95
+UnderLoad
+curr_data-> 70
+OverLoad
+here
+here
+next-> 95 70
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  9
+ceilometer-> 51
+ceilometer-> 36
+State now: 95 70
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0429s\n    total number of events:              10000\n    total time taken by event execution: 0.0273\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.25ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0273/0.00\n\n'
+b''
+curr_data-> 51
+curr_data-> 36
+next-> 51 36
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  10
+ceilometer-> 67
+ceilometer-> 62
+State now: 51 36
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 6
+<paramiko.ChannelFile from <paramiko.Channel 2 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 2 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 67
+UnderLoad
+curr_data-> 62
+OverLoad
+here
+here
+next-> 67 62
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  11
+ceilometer-> 61
+ceilometer-> 49
+State now: 67 62
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0396s\n    total number of events:              10000\n    total time taken by event execution: 0.0254\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.87ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0254/0.00\n\n'
+b''
+curr_data-> 61
+OverLoad
+curr_data-> 49
+UnderLoad
+here
+here
+next-> 61 49
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  12
+ceilometer-> 12
+ceilometer-> 32
+State now: 61 49
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0391s\n    total number of events:              10000\n    total time taken by event execution: 0.0234\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.86ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0234/0.00\n\n'
+b''
+curr_data-> 12
+OverLoad
+curr_data-> 32
+UnderLoad
+here
+here
+next-> 12 32
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  13
+ceilometer-> 77
+ceilometer-> 93
+State now: 12 32
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 3 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 3 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 77
+curr_data-> 93
+here
+next-> 77 93
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  14
+ceilometer-> 96
+ceilometer-> 35
+State now: 77 93
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 4 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 4 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 96
+OverLoad
+curr_data-> 35
+OverLoad
+here
+next-> 96 35
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  15
+ceilometer-> 35
+ceilometer-> 64
+State now: 96 35
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0429s\n    total number of events:              10000\n    total time taken by event execution: 0.0276\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.66ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0276/0.00\n\n'
+b''
+curr_data-> 35
+curr_data-> 64
+UnderLoad
+here
+next-> 35 64
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  16
+ceilometer-> 12
+ceilometer-> 28
+State now: 35 64
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 5 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 5 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 12
+OverLoad
+curr_data-> 28
+OverLoad
+here
+here
+next-> 12 28
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  17
+ceilometer-> 16
+ceilometer-> 71
+State now: 12 28
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 6
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 6\n\n\nTest execution summary:\n    total time:                          0.0460s\n    total number of events:              10000\n    total time taken by event execution: 0.0293\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.58ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0293/0.00\n\n'
+b''
+curr_data-> 16
+curr_data-> 71
+UnderLoad
+here
+here
+next-> 16 71
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  18
+ceilometer-> 22
+ceilometer-> 34
+State now: 16 71
+action: 2 action 1: 2
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 6 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 6 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 22
+UnderLoad
+curr_data-> 34
+UnderLoad
+here
+here
+next-> 22 34
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  19
+ceilometer-> 31
+ceilometer-> 74
+State now: 22 34
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0485s\n    total number of events:              10000\n    total time taken by event execution: 0.0321\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.60ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0321/0.00\n\n'
+b''
+curr_data-> 31
+curr_data-> 74
+UnderLoad
+here
+next-> 31 74
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  20
+ceilometer-> 49
+ceilometer-> 16
+State now: 31 74
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 7 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 7 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 49
+UnderLoad
+curr_data-> 16
+here
+here
+next-> 49 16
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  21
+ceilometer-> 78
+ceilometer-> 15
+State now: 49 16
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0493s\n    total number of events:              10000\n    total time taken by event execution: 0.0329\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.94ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0329/0.00\n\n'
+b''
+curr_data-> 78
+OverLoad
+curr_data-> 15
+here
+here
+next-> 78 15
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  22
+ceilometer-> 14
+ceilometer-> 86
+State now: 78 15
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0432s\n    total number of events:              10000\n    total time taken by event execution: 0.0282\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.44ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0282/0.00\n\n'
+b''
+curr_data-> 14
+OverLoad
+curr_data-> 86
+here
+here
+next-> 14 86
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  23
+ceilometer-> 20
+ceilometer-> 53
+State now: 14 86
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0476s\n    total number of events:              10000\n    total time taken by event execution: 0.0318\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.06ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0318/0.00\n\n'
+b''
+curr_data-> 20
+curr_data-> 53
+UnderLoad
+here
+next-> 20 53
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  24
+ceilometer-> 85
+ceilometer-> 6
+State now: 20 53
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0420s\n    total number of events:              10000\n    total time taken by event execution: 0.0252\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.33ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0252/0.00\n\n'
+b''
+curr_data-> 85
+OverLoad
+curr_data-> 6
+here
+next-> 85 6
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  25
+ceilometer-> 2
+ceilometer-> 3
+State now: 85 6
+action: 1 action 1: 1
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0435s\n    total number of events:              10000\n    total time taken by event execution: 0.0286\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.23ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0286/0.00\n\n'
+b''
+curr_data-> 2
+OverLoad
+curr_data-> 3
+OverLoad
+here
+here
+next-> 2 3
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  26
+ceilometer-> 19
+ceilometer-> 90
+State now: 2 3
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0483s\n    total number of events:              10000\n    total time taken by event execution: 0.0336\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.95ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0336/0.00\n\n'
+b''
+curr_data-> 19
+curr_data-> 90
+UnderLoad
+here
+here
+next-> 19 90
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  27
+ceilometer-> 50
+ceilometer-> 34
+State now: 19 90
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 8 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 8 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 50
+OverLoad
+curr_data-> 34
+OverLoad
+here
+here
+next-> 50 34
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  28
+ceilometer-> 7
+ceilometer-> 88
+State now: 50 34
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 9 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 9 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 7
+UnderLoad
+curr_data-> 88
+here
+next-> 7 88
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  29
+ceilometer-> 38
+ceilometer-> 32
+State now: 7 88
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0503s\n    total number of events:              10000\n    total time taken by event execution: 0.0330\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.73ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0330/0.00\n\n'
+b''
+curr_data-> 38
+curr_data-> 32
+UnderLoad
+here
+next-> 38 32
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  30
+ceilometer-> 98
+ceilometer-> 16
+State now: 38 32
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 10 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 10 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 98
+curr_data-> 16
+OverLoad
+here
+here
+next-> 98 16
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  31
+ceilometer-> 39
+ceilometer-> 24
+State now: 98 16
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0548s\n    total number of events:              10000\n    total time taken by event execution: 0.0349\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  6.35ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0349/0.00\n\n'
+b''
+curr_data-> 39
+UnderLoad
+curr_data-> 24
+UnderLoad
+here
+here
+next-> 39 24
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  32
+ceilometer-> 100
+ceilometer-> 15
+State now: 39 24
+action: 1 action 1: 1
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0430s\n    total number of events:              10000\n    total time taken by event execution: 0.0270\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.51ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0270/0.00\n\n'
+b''
+curr_data-> 100
+OverLoad
+curr_data-> 15
+OverLoad
+here
+next-> 100 15
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  33
+ceilometer-> 62
+ceilometer-> 47
+State now: 100 15
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0462s\n    total number of events:              10000\n    total time taken by event execution: 0.0325\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.42ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0325/0.00\n\n'
+b''
+curr_data-> 62
+curr_data-> 47
+UnderLoad
+here
+next-> 62 47
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  34
+ceilometer-> 100
+ceilometer-> 0
+State now: 62 47
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0474s\n    total number of events:              10000\n    total time taken by event execution: 0.0317\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.90ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0317/0.00\n\n'
+b''
+curr_data-> 100
+OverLoad
+curr_data-> 0
+here
+next-> 100 0
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  35
+ceilometer-> 19
+ceilometer-> 5
+State now: 100 0
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0496s\n    total number of events:              10000\n    total time taken by event execution: 0.0300\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.75ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0300/0.00\n\n'
+b''
+curr_data-> 19
+OverLoad
+curr_data-> 5
+here
+here
+next-> 19 5
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  36
+ceilometer-> 68
+ceilometer-> 80
+State now: 19 5
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0461s\n    total number of events:              10000\n    total time taken by event execution: 0.0279\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.13ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0279/0.00\n\n'
+b''
+curr_data-> 68
+curr_data-> 80
+here
+next-> 68 80
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  37
+ceilometer-> 52
+ceilometer-> 40
+State now: 68 80
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0511s\n    total number of events:              10000\n    total time taken by event execution: 0.0355\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.18ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0355/0.00\n\n'
+b''
+curr_data-> 52
+OverLoad
+curr_data-> 40
+UnderLoad
+here
+here
+next-> 52 40
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  38
+ceilometer-> 61
+ceilometer-> 84
+State now: 52 40
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 11 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 11 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 61
+curr_data-> 84
+OverLoad
+next-> 61 84
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  39
+ceilometer-> 93
+ceilometer-> 23
+State now: 61 84
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 12 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 12 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 93
+OverLoad
+curr_data-> 23
+OverLoad
+here
+next-> 93 23
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  40
+ceilometer-> 52
+ceilometer-> 7
+State now: 93 23
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0458s\n    total number of events:              10000\n    total time taken by event execution: 0.0311\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.44ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0311/0.00\n\n'
+b''
+curr_data-> 52
+curr_data-> 7
+UnderLoad
+next-> 52 7
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  41
+ceilometer-> 29
+ceilometer-> 78
+State now: 52 7
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0512s\n    total number of events:              10000\n    total time taken by event execution: 0.0336\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.28ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0336/0.00\n\n'
+b''
+curr_data-> 29
+curr_data-> 78
+next-> 29 78
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  42
+ceilometer-> 25
+ceilometer-> 91
+State now: 29 78
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0497s\n    total number of events:              10000\n    total time taken by event execution: 0.0314\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.78ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0314/0.00\n\n'
+b''
+curr_data-> 25
+OverLoad
+curr_data-> 91
+here
+here
+next-> 25 91
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  43
+ceilometer-> 0
+ceilometer-> 87
+State now: 25 91
+action: 2 action 1: 2
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 13 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 13 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 0
+UnderLoad
+curr_data-> 87
+UnderLoad
+here
+next-> 0 87
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  44
+ceilometer-> 46
+ceilometer-> 66
+State now: 0 87
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 4
+<paramiko.ChannelFile from <paramiko.Channel 14 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 14 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 46
+UnderLoad
+curr_data-> 66
+OverLoad
+here
+here
+next-> 46 66
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  45
+ceilometer-> 38
+ceilometer-> 38
+State now: 46 66
+action: 1 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 15 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 15 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 38
+OverLoad
+curr_data-> 38
+OverLoad
+here
+here
+next-> 38 38
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  46
+ceilometer-> 46
+ceilometer-> 14
+State now: 38 38
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 16 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 16 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 46
+UnderLoad
+curr_data-> 14
+OverLoad
+here
+here
+next-> 46 14
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  47
+ceilometer-> 95
+ceilometer-> 24
+State now: 46 14
+action: 0 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 17 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 17 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 95
+curr_data-> 24
+OverLoad
+here
+here
+next-> 95 24
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  48
+ceilometer-> 94
+ceilometer-> 16
+State now: 95 24
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0448s\n    total number of events:              10000\n    total time taken by event execution: 0.0276\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.42ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0276/0.00\n\n'
+b''
+curr_data-> 94
+curr_data-> 16
+UnderLoad
+here
+next-> 94 16
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  49
+ceilometer-> 35
+ceilometer-> 12
+State now: 94 16
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 4
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 4\n\n\nTest execution summary:\n    total time:                          0.0441s\n    total number of events:              10000\n    total time taken by event execution: 0.0267\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.28ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0267/0.00\n\n'
+b''
+curr_data-> 35
+OverLoad
+curr_data-> 12
+UnderLoad
+here
+next-> 35 12
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  50
+ceilometer-> 59
+ceilometer-> 29
+State now: 35 12
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0536s\n    total number of events:              10000\n    total time taken by event execution: 0.0365\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.05ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0365/0.00\n\n'
+b''
+curr_data-> 59
+curr_data-> 29
+next-> 59 29
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  51
+ceilometer-> 43
+ceilometer-> 12
+State now: 59 29
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0425s\n    total number of events:              10000\n    total time taken by event execution: 0.0273\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.20ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0273/0.00\n\n'
+b''
+curr_data-> 43
+OverLoad
+curr_data-> 12
+UnderLoad
+here
+next-> 43 12
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  52
+ceilometer-> 56
+ceilometer-> 20
+State now: 43 12
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 5
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 5\n\n\nTest execution summary:\n    total time:                          0.0442s\n    total number of events:              10000\n    total time taken by event execution: 0.0271\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.35ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0271/0.00\n\n'
+b''
+curr_data-> 56
+OverLoad
+curr_data-> 20
+here
+next-> 56 20
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  53
+ceilometer-> 45
+ceilometer-> 19
+State now: 56 20
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0458s\n    total number of events:              10000\n    total time taken by event execution: 0.0288\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.01ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0288/0.00\n\n'
+b''
+curr_data-> 45
+curr_data-> 19
+here
+next-> 45 19
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  54
+ceilometer-> 75
+ceilometer-> 76
+State now: 45 19
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 18 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 18 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 75
+UnderLoad
+curr_data-> 76
+here
+next-> 75 76
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  55
+ceilometer-> 7
+ceilometer-> 79
+State now: 75 76
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 19 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 19 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 7
+UnderLoad
+curr_data-> 79
+OverLoad
+here
+next-> 7 79
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  56
+ceilometer-> 32
+ceilometer-> 54
+State now: 7 79
+action: 0 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 20 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 20 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 32
+curr_data-> 54
+next-> 32 54
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  57
+ceilometer-> 93
+ceilometer-> 63
+State now: 32 54
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0428s\n    total number of events:              10000\n    total time taken by event execution: 0.0264\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.10ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0264/0.00\n\n'
+b''
+curr_data-> 93
+OverLoad
+curr_data-> 63
+next-> 93 63
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  58
+ceilometer-> 21
+ceilometer-> 20
+State now: 93 63
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0443s\n    total number of events:              10000\n    total time taken by event execution: 0.0271\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.34ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0271/0.00\n\n'
+b''
+curr_data-> 21
+curr_data-> 20
+next-> 21 20
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  59
+ceilometer-> 32
+ceilometer-> 22
+State now: 21 20
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0481s\n    total number of events:              10000\n    total time taken by event execution: 0.0314\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  2.82ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0314/0.00\n\n'
+b''
+curr_data-> 32
+UnderLoad
+curr_data-> 22
+UnderLoad
+here
+here
+next-> 32 22
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  60
+ceilometer-> 23
+ceilometer-> 66
+State now: 32 22
+action: 1 action 1: 1
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0413s\n    total number of events:              10000\n    total time taken by event execution: 0.0267\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.95ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0267/0.00\n\n'
+b''
+curr_data-> 23
+OverLoad
+curr_data-> 66
+OverLoad
+here
+here
+next-> 23 66
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  61
+ceilometer-> 39
+ceilometer-> 8
+State now: 23 66
+action: 2 action 1: 2
+To IP-> 192.168.31.55
+Number of threads-> 4
+<paramiko.ChannelFile from <paramiko.Channel 21 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 21 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 39
+UnderLoad
+curr_data-> 8
+UnderLoad
+here
+next-> 39 8
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  62
+ceilometer-> 44
+ceilometer-> 80
+State now: 39 8
+action: 0 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 7
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 7\n\n\nTest execution summary:\n    total time:                          0.0436s\n    total number of events:              10000\n    total time taken by event execution: 0.0284\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.17ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0284/0.00\n\n'
+b''
+curr_data-> 44
+curr_data-> 80
+UnderLoad
+here
+next-> 44 80
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  63
+ceilometer-> 36
+ceilometer-> 35
+State now: 44 80
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 22 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 22 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 36
+UnderLoad
+curr_data-> 35
+here
+next-> 36 35
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  64
+ceilometer-> 87
+ceilometer-> 15
+State now: 36 35
+action: 1 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 6
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 6\n\n\nTest execution summary:\n    total time:                          0.0440s\n    total number of events:              10000\n    total time taken by event execution: 0.0287\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.64ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0287/0.00\n\n'
+b''
+curr_data-> 87
+OverLoad
+curr_data-> 15
+here
+next-> 87 15
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  65
+ceilometer-> 46
+ceilometer-> 95
+State now: 87 15
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 6
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 6\n\n\nTest execution summary:\n    total time:                          0.0452s\n    total number of events:              10000\n    total time taken by event execution: 0.0280\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.16ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0280/0.00\n\n'
+b''
+curr_data-> 46
+UnderLoad
+curr_data-> 95
+UnderLoad
+here
+here
+next-> 46 95
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  66
+ceilometer-> 91
+ceilometer-> 17
+State now: 46 95
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 23 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 23 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 91
+UnderLoad
+curr_data-> 17
+here
+here
+next-> 91 17
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  67
+ceilometer-> 35
+ceilometer-> 4
+State now: 91 17
+action: 0 action 1: 0
+To IP-> 192.168.31.65
+Number of threads-> 9
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 9\n\n\nTest execution summary:\n    total time:                          0.0469s\n    total number of events:              10000\n    total time taken by event execution: 0.0304\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.27ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0304/0.00\n\n'
+b''
+curr_data-> 35
+curr_data-> 4
+here
+next-> 35 4
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  68
+ceilometer-> 52
+ceilometer-> 36
+State now: 35 4
+action: 1 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0443s\n    total number of events:              10000\n    total time taken by event execution: 0.0262\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.40ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0262/0.00\n\n'
+b''
+curr_data-> 52
+OverLoad
+curr_data-> 36
+UnderLoad
+here
+here
+next-> 52 36
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  69
+ceilometer-> 75
+ceilometer-> 32
+State now: 52 36
+action: 2 action 1: 0
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 24 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 24 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 75
+UnderLoad
+curr_data-> 32
+here
+next-> 75 32
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  70
+ceilometer-> 87
+ceilometer-> 76
+State now: 75 32
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 6
+<paramiko.ChannelFile from <paramiko.Channel 25 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 25 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 87
+UnderLoad
+curr_data-> 76
+OverLoad
+here
+here
+next-> 87 76
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  71
+ceilometer-> 79
+ceilometer-> 65
+State now: 87 76
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 6
+<paramiko.ChannelFile from <paramiko.Channel 26 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 26 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 79
+UnderLoad
+curr_data-> 65
+OverLoad
+here
+here
+next-> 79 65
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  72
+ceilometer-> 17
+ceilometer-> 54
+State now: 79 65
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 10
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 10\n\n\nTest execution summary:\n    total time:                          0.0537s\n    total number of events:              10000\n    total time taken by event execution: 0.0328\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.04ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0328/0.00\n\n'
+b''
+curr_data-> 17
+UnderLoad
+curr_data-> 54
+UnderLoad
+here
+next-> 17 54
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  73
+ceilometer-> 100
+ceilometer-> 50
+State now: 17 54
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 6
+<paramiko.ChannelFile from <paramiko.Channel 27 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 27 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 100
+UnderLoad
+curr_data-> 50
+OverLoad
+here
+here
+next-> 100 50
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  74
+ceilometer-> 66
+ceilometer-> 80
+State now: 100 50
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 28 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 28 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 66
+UnderLoad
+curr_data-> 80
+OverLoad
+here
+next-> 66 80
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  75
+ceilometer-> 40
+ceilometer-> 47
+State now: 66 80
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 29 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 29 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 40
+UnderLoad
+curr_data-> 47
+OverLoad
+here
+here
+next-> 40 47
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  76
+ceilometer-> 40
+ceilometer-> 45
+State now: 40 47
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 30 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 30 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 40
+UnderLoad
+curr_data-> 45
+OverLoad
+here
+here
+next-> 40 45
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  77
+ceilometer-> 24
+ceilometer-> 9
+State now: 40 45
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 31 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 31 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 24
+UnderLoad
+curr_data-> 9
+OverLoad
+here
+here
+next-> 24 9
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  78
+ceilometer-> 56
+ceilometer-> 77
+State now: 24 9
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 3
+<paramiko.ChannelFile from <paramiko.Channel 32 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 32 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 56
+UnderLoad
+curr_data-> 77
+OverLoad
+here
+here
+next-> 56 77
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  79
+ceilometer-> 62
+ceilometer-> 99
+State now: 56 77
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 33 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 33 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 62
+UnderLoad
+curr_data-> 99
+OverLoad
+here
+next-> 62 99
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  80
+ceilometer-> 27
+ceilometer-> 67
+State now: 62 99
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 34 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 34 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 27
+UnderLoad
+curr_data-> 67
+OverLoad
+here
+here
+next-> 27 67
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  81
+ceilometer-> 80
+ceilometer-> 41
+State now: 27 67
+action: 2 action 1: 2
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 35 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 35 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 80
+UnderLoad
+curr_data-> 41
+UnderLoad
+here
+here
+next-> 80 41
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  82
+ceilometer-> 25
+ceilometer-> 86
+State now: 80 41
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 36 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 36 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 25
+UnderLoad
+curr_data-> 86
+OverLoad
+here
+next-> 25 86
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  83
+ceilometer-> 61
+ceilometer-> 13
+State now: 25 86
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 7
+<paramiko.ChannelFile from <paramiko.Channel 37 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 37 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 61
+UnderLoad
+curr_data-> 13
+OverLoad
+here
+here
+next-> 61 13
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  84
+ceilometer-> 66
+ceilometer-> 85
+State now: 61 13
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 2
+<paramiko.ChannelFile from <paramiko.Channel 38 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 38 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 66
+UnderLoad
+curr_data-> 85
+OverLoad
+here
+next-> 66 85
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  85
+ceilometer-> 13
+ceilometer-> 40
+State now: 66 85
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 4
+<paramiko.ChannelFile from <paramiko.Channel 39 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 39 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 13
+UnderLoad
+curr_data-> 40
+OverLoad
+here
+next-> 13 40
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  86
+ceilometer-> 86
+ceilometer-> 98
+State now: 13 40
+action: 2 action 1: 2
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 40 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 40 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 86
+UnderLoad
+curr_data-> 98
+UnderLoad
+here
+here
+next-> 86 98
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  87
+ceilometer-> 19
+ceilometer-> 67
+State now: 86 98
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 41 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 41 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 19
+UnderLoad
+curr_data-> 67
+OverLoad
+here
+next-> 19 67
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  88
+ceilometer-> 74
+ceilometer-> 21
+State now: 19 67
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 42 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 42 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 74
+UnderLoad
+curr_data-> 21
+OverLoad
+here
+here
+next-> 74 21
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  89
+ceilometer-> 62
+ceilometer-> 32
+State now: 74 21
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 43 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 43 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 62
+UnderLoad
+curr_data-> 32
+OverLoad
+here
+here
+next-> 62 32
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  90
+ceilometer-> 70
+ceilometer-> 38
+State now: 62 32
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 44 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 44 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 70
+UnderLoad
+curr_data-> 38
+OverLoad
+here
+here
+next-> 70 38
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  91
+ceilometer-> 96
+ceilometer-> 98
+State now: 70 38
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 6
+<paramiko.ChannelFile from <paramiko.Channel 45 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 45 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 96
+UnderLoad
+curr_data-> 98
+OverLoad
+here
+next-> 96 98
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  92
+ceilometer-> 36
+ceilometer-> 11
+State now: 96 98
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 5
+<paramiko.ChannelFile from <paramiko.Channel 46 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 46 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 36
+UnderLoad
+curr_data-> 11
+OverLoad
+here
+here
+next-> 36 11
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  93
+ceilometer-> 63
+ceilometer-> 34
+State now: 36 11
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 3
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 3\n\n\nTest execution summary:\n    total time:                          0.0458s\n    total number of events:              10000\n    total time taken by event execution: 0.0272\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  0.97ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0272/0.00\n\n'
+b''
+curr_data-> 63
+UnderLoad
+curr_data-> 34
+UnderLoad
+here
+here
+next-> 63 34
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  94
+ceilometer-> 87
+ceilometer-> 72
+State now: 63 34
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 10
+<paramiko.ChannelFile from <paramiko.Channel 47 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 47 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 87
+UnderLoad
+curr_data-> 72
+OverLoad
+here
+here
+next-> 87 72
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  95
+ceilometer-> 95
+ceilometer-> 48
+State now: 87 72
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 48 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 48 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 95
+UnderLoad
+curr_data-> 48
+OverLoad
+here
+here
+next-> 95 48
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  96
+ceilometer-> 93
+ceilometer-> 84
+State now: 95 48
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 4
+<paramiko.ChannelFile from <paramiko.Channel 49 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 49 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 93
+UnderLoad
+curr_data-> 84
+OverLoad
+here
+next-> 93 84
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  97
+ceilometer-> 82
+ceilometer-> 21
+State now: 93 84
+action: 2 action 1: 2
+To IP-> 192.168.31.65
+Number of threads-> 2
+b'sysbench 0.4.12:  multi-threaded system evaluation benchmark\n\nRunning the test with following options:\nNumber of threads: 1\n\nDoing CPU performance benchmark\n\nThreads started!\nDone.\n\nMaximum prime number checked in CPU test: 2\n\n\nTest execution summary:\n    total time:                          0.0463s\n    total number of events:              10000\n    total time taken by event execution: 0.0275\n    per-request statistics:\n         min:                                  0.00ms\n         avg:                                  0.00ms\n         max:                                  1.41ms\n         approx.  95 percentile:               0.00ms\n\nThreads fairness:\n    events (avg/stddev):           10000.0000/0.00\n    execution time (avg/stddev):   0.0275/0.00\n\n'
+b''
+curr_data-> 82
+UnderLoad
+curr_data-> 21
+UnderLoad
+here
+here
+next-> 82 21
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  98
+ceilometer-> 68
+ceilometer-> 77
+State now: 82 21
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 8
+<paramiko.ChannelFile from <paramiko.Channel 50 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 50 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 68
+UnderLoad
+curr_data-> 77
+OverLoad
+here
+here
+next-> 68 77
+-------------------------------
+-------------------------------
+LOAD NUMEBR:  99
+ceilometer-> 38
+ceilometer-> 76
+State now: 68 77
+action: 2 action 1: 1
+To IP-> 192.168.31.55
+Number of threads-> 9
+<paramiko.ChannelFile from <paramiko.Channel 51 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+<paramiko.ChannelFile from <paramiko.Channel 51 (open) window=2097152 -> <paramiko.Transport at 0x400f2220 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+curr_data-> 38
+UnderLoad
+curr_data-> 76
+OverLoad
+here
+here
+next-> 38 76
+-------------------------------
+--------------------------------
+Done with accuracy 0.73
+--------------------------------
+Total execution time = 0:00:35.960257
