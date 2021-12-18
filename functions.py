@@ -2,6 +2,15 @@ import numpy as np
 import paramiko
 from io import StringIO
 import random
+import subprocess
+import sys
+if sys.version_info[0] < 3: 
+    from StringIO import StringIO
+else:
+    from io import StringIO
+from multipledispatch import dispatch
+
+import pandas as pd
 # returns the vector containing stock data from a fixed file
 def getDataVec(key,op):
 	vec = []
@@ -65,18 +74,22 @@ def calcReward(action,data):
             reward=-1
     return reward
 
+@dispatch()
 def getDataCeilometer():
-    cmd='ceilometer --os-username admin --os-password admin_pass --os-project-id 2448c5574f994284a0de2604962a55a0 --os-user-domain-name default --os-auth-url http://192.168.31.2/v3/  sample-list --meter cpu_util'
-    # mastervm = paramiko.SSHClient()
-    # mastervm.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    # print ("connecting")
-
-    # address='controllerIP'
-    # mykey='key'
-    
-    # mastervm.connect( hostname = address, username = "ubuntu", pkey = mykey  )
-    # print ("connected")
-    # stdin , stdout, stderr =mastervm.exec_command(cmd)
     k=random.randint(0,100)
     print('ceilometer->',k)
-    return k
+    return 
+
+@dispatch(str)
+def getDataCeilometer(resource):
+    cmd=["ceilometer","--os-username","admin","--os-password","admin_pass","--os-project-id","2448c5574f994284a0de2604962a55a0","--os-user-domain-name","default","--os-auth-url","http://192.168.31.2/v3/","sample-list","--meter","cpu_util"]
+    test = subprocess.Popen(cmd, stdout=subprocess.PIPE)
+    output = test.communicate()[0].decode('utf-8') #test.communicate returns ouput in the type bytes,coverting to string by decoding
+    strOut=StringIO(output)
+    df=pd.read_csv(strOut,sep=",")
+    op=0
+    for i in df.index:
+        #getting most recent data
+        if(df['resource-id'][i]==resource):
+            op=int(df['volume'][i])
+    return op
